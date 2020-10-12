@@ -1,0 +1,45 @@
+jQuery.extend(
+    Drupal.settings, 
+    {
+      "basePath":"\u002F", 
+      "pathPrefix":"", 
+      "ajaxPageState":{"theme":"business_responsive_theme", 
+      "theme_token":"GWksOKT7TWxZ_ZeXsgnxDhlFW6gDOr-UncYKgAQaAQI", 
+      "js":{
+        "0":1, 
+        "misc\u002Fjquery.js":1, 
+        "misc\u002Fjquery.once.js":1, 
+        "misc\u002Fdrupal.js":1, 
+        "sites\u002Fall\u002Fmodules\u002Fcolorbox\u002Fjs\u002Fcolorbox.js":1, 
+        "sites\u002Fall\u002Fmodules\u002Fcolorbox\u002Fstyles\u002Fdefault\u002Fcolorbox_style.js":1, 
+        "1":1, 
+        "themes\u002Fbusiness_responsive_theme\u002Fjs\u002Fcustom.js":1}, 
+      "css":{
+        "modules\u002Fsystem\u002Fsystem.base.css":1, 
+        "modules\u002Fsystem\u002Fsystem.menus.css":1, 
+        "modules\u002Fsystem\u002Fsystem.messages.css":1, 
+        "modules\u002Fsystem\u002Fsystem.theme.css":1, 
+        "modules\u002Ffield\u002Ftheme\u002Ffield.css":1, 
+        "modules\u002Fnode\u002Fnode.css":1, 
+        "modules\u002Fsearch\u002Fsearch.css":1, 
+        "modules\u002Fuser\u002Fuser.css":1, 
+        "sites\u002Fall\u002Fmodules\u002Fcolorbox\u002Fstyles\u002Fdefault\u002Fcolorbox_style.css":1, 
+        "sites\u002Fall\u002Fmodules\u002Fctools\u002Fcss\u002Fctools.css":1, 
+        "themes\u002Fbusiness_responsive_theme\u002Fstyle.css":1, 
+        "themes\u002Fbusiness_responsive_theme\u002Fmedia.css":1
+        }
+      }, 
+      "colorbox":{
+        "opacity":"0.85", 
+        "current":"{current} of {total}", 
+        "previous":"« Prev", 
+        "next":"Next »", 
+        "close":"Close", 
+        "maxWidth":"98%", 
+        "maxHeight":"98%", 
+        "fixed":true, 
+        "mobiledetect":true, 
+        "mobiledevicewidth":"480px"
+        }
+    }
+  );
